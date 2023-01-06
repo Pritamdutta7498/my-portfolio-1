@@ -19,9 +19,11 @@
 }
 .header {
   background-color: #fff8f3;
-  background-image: url("./images/header_bg.png"), url("./images/developer.png");
+  background-image: url("./images/header_bg.png");
   background-repeat: no-repeat;
-  background-position: bottom right, left;
+  background-position: bottom right,left;
+
+
 }
 /* header and navigation style */
 
@@ -31,9 +33,8 @@ nav {
   padding: 50px 200px;
 }
 .nav-title{
-  margin-left: -22px;
-  font-weight:bolder;
-  font-size: 50px;
+  font-weight:800;
+  font-size: 45px;
 }
 nav ul {
   display: flex;
@@ -49,8 +50,9 @@ nav li {
 /* banner style */
 
 .banner {
+  background-image: url("./images/developer.png");
   display: flex;
-  margin: 0 170px;
+  margin: 0 200px;
   align-items: center;
 }
 .banner-hi {
@@ -85,7 +87,7 @@ nav li {
 
 /* main section */
 main {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 /* About me section */
