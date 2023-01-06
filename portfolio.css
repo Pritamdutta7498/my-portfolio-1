@@ -19,18 +19,16 @@
 }
 .header {
   background-color: #fff8f3;
-  background-image: url("./images/header_bg.png");
+  background-image: url("./images/header_bg.png"),url("./images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right,left;
-
-
+  background-position: bottom right,bottom left;
 }
 /* header and navigation style */
 
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 50px 200px;
+  padding: 110px 200px;
 }
 .nav-title{
   font-weight:800;
@@ -50,7 +48,6 @@ nav li {
 /* banner style */
 
 .banner {
-  background-image: url("./images/developer.png");
   display: flex;
   margin: 0 200px;
   align-items: center;
